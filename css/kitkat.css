@@ -92,7 +92,7 @@ main {
 }
 .major-col h1 {	text-align: center; }
 .minor-col h1 { text-align: left; }
-.gallery .column img {	transition: all 3s; }
+.gallery .column img {	transition: all 1s; }
 .gallery .column img:hover { transform: scale(1.1); }
 
 .gallery {
