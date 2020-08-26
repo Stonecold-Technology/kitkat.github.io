@@ -126,16 +126,12 @@ footer {
 	 margin-bottom: 30px;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .minor-col, .major-col {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
+	.minor-col, .major-col {   
+		width: 100%;
+		padding: 0;
+	}
 	.gallery .column {
 		-ms-flex: 50%;
 		flex: 50%;
@@ -156,5 +152,10 @@ footer {
 	}
 	.main-nav li a {
 		font-size: 1rem;
+	}
+}
+@media screen and (min-width: 800px) {
+	.gallery .column img:hover { 
+		transform: scale(1.3); 
 	}
 }
