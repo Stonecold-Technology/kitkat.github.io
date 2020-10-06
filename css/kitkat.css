@@ -51,6 +51,16 @@ main {
 	font-weight: bold;
 }
 
+#hdr-image span#photo-credit{
+	position: absolute;
+	text-align: right;
+	bottom: 0px;
+	right: 0px;
+	font-size: 1rem;
+	font-weight: normal;
+	color: white;
+}
+
 .main-nav {
   list-style-type: none;
   margin: 0;
