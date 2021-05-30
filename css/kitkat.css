@@ -51,6 +51,16 @@ main {
 	font-weight: bold;
 }
 
+#hdr-image span#photo-credit{
+	position: absolute;
+	text-align: right;
+	bottom: 0px;
+	right: 0px;
+	font-size: 1rem;
+	font-weight: normal;
+	color: white;
+}
+
 .main-nav {
   list-style-type: none;
   margin: 0;
@@ -93,7 +103,7 @@ main {
 .major-col h1 {	text-align: center; }
 .minor-col h1 { text-align: left; }
 .gallery .column img {	transition: all 1s; }
-.gallery .column img:hover { transform: scale(1.1); }
+.gallery .column img:hover { transform: scale(1.15); }
 
 .gallery {
 	display: -ms-flexbox; /* IE10 */
@@ -156,6 +166,6 @@ footer {
 }
 @media screen and (min-width: 800px) {
 	.gallery .column img:hover { 
-		transform: scale(1.3); 
+		transform: scale(1.15); 
 	}
 }
