@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Eurostile Extended';
-    src: url('../resources/fonts/EurostileExtended-Roman.eot');
-    src: url('../resources/fonts/EurostileExtended-Roman.eot?#iefix') format('embedded-opentype'),
-        url('../resources/fonts/EurostileExtended-Roman.woff2') format('woff2'),
-        url('../resources/fonts/EurostileExtended-Roman.woff') format('woff'),
-        url('../resources/fonts/EurostileExtended-Roman.ttf') format('truetype'),
-        url('../resources/fonts/EurostileExtended-Roman.svg#EurostileExtended-Roman') format('svg');
+    src: url('../fonts/EurostileExtended-Roman.eot');
+    src: url('../fonts/EurostileExtended-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EurostileExtended-Roman.woff2') format('woff2'),
+        url('../fonts/EurostileExtended-Roman.woff') format('woff'),
+        url('../fonts/EurostileExtended-Roman.ttf') format('truetype'),
+        url('../fonts/EurostileExtended-Roman.svg#EurostileExtended-Roman') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,24 +14,24 @@
 
 @font-face {
     font-family: 'Comfortaa';
-    src: url('../resources/fonts/comfortaa_bold-webfont.woff2') format('woff2'),
-         url('../resources/fonts/comfortaa_bold-webfont.woff') format('woff');
+    src: url('../fonts/comfortaa_bold-webfont.woff2') format('woff2'),
+         url('../fonts/comfortaa_bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Comfortaa';
-    src: url('../resources/fonts/comfortaa_regular-webfont.woff2') format('woff2'),
-         url('../resources/fonts/comfortaa_regular-webfont.woff') format('woff');
+    src: url('../fonts/comfortaa_regular-webfont.woff2') format('woff2'),
+         url('../fonts/comfortaa_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Comfortaa';
-    src: url('../resources/fonts/comfortaa_thin-webfont.woff2') format('woff2'),
-         url('../resources/fonts/comfortaa_thin-webfont.woff') format('woff');
+    src: url('../fonts/comfortaa_thin-webfont.woff2') format('woff2'),
+         url('../fonts/comfortaa_thin-webfont.woff') format('woff');
     font-weight: thin;
     font-style: normal;
 }
